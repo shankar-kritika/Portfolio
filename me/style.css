@@ -12,6 +12,11 @@ body {
   font-size: 1rem;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 
 
 .intro-text {
