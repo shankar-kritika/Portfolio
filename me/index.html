@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kritika | Frontend Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 </head>
+
 <body>
 
+
+  <!-- Toggle Button (visible only on mobile) -->
+  <button class="nav-toggle" onclick="toggleSidebar()">☰</button>
   <header class="hero">
-     <nav class="hero-nav right">
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="education">Education</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+    <!-- Navigation -->
+    <nav class="hero-nav" id="sidebarNav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
 
 
 
@@ -30,8 +37,10 @@
       <p class="subtitle">Frontend Developer | Angular | Java </p>
       <div class="hero-buttons">
         <a href="mailto:krkritika24@gmail.com" class="btn-glow">📧 Email</a>
-        <a href="https://www.linkedin.com/in/kritika-kritika-7a6b39147/" class="btn-glow" target="_blank">🔗 LinkedIn</a>
-        <a href="https://drive.google.com/file/d/1tdG9DhblsdTqj_Gwv-rpKb9F6T_az-ix/view" class="btn-glow" target="_blank">📄 Resume</a>
+        <a href="https://www.linkedin.com/in/kritika-kritika-7a6b39147/" class="btn-glow" target="_blank">🔗
+          LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1tdG9DhblsdTqj_Gwv-rpKb9F6T_az-ix/view" class="btn-glow"
+          target="_blank">📄 Resume</a>
         <a href="https://github.com/shankar-kritika" class="btn-glow" target="_blank">🐙 GitHub</a>
       </div>
     </div>
@@ -42,37 +51,49 @@
     <section id="about">
       <h2>👩‍💻 About Me</h2>
       <p>
-        I'm Kritika, a passionate Frontend Developer with experience building dynamic, scalable applications
-        using Angular, Java, Python, and React. I specialize in crafting intuitive user interfaces and
-        developing full-stack features with a strong focus on performance and usability.
+        Hello! I'm <strong>Kritika</strong>, a passionate and creative <strong>Frontend Developer</strong> who loves
+        building elegant, responsive, and high-performance web applications. With hands-on experience in
+        <strong>Angular</strong>, <strong>Java</strong>, and <strong>Python</strong>, I bridge the gap between sleek UI
+        and solid backend architecture.
+      </p>
+      <p>
+        I thrive in fast-paced environments, currently contributing as a <strong>Custom Software Engineer Analyst at
+          Accenture (Google Client)</strong>. My work spans from Android development using Java and Cavy to building
+        full-stack web solutions that delight users and deliver business value.
+      </p>
+      <p>
+        I'm always exploring new technologies and refining my craft—whether it's optimizing a React app, designing
+        intuitive dashboards, or experimenting with APIs. If you're looking for a developer who codes with precision and
+        designs with passion, let's connect!
       </p>
     </section>
-   <section id="experience">
-  <h2>💼 Experience</h2>
-  <div class="project-grid">
-    
-    <div class="project-card">
-      <h3>Custom Software Engineer Analyst</h3>
-      <p class="stack">Accenture India (Google Client) | Sep 2023 – Present</p>
-      <ul>
-        <li>Developed Android features using Java & Cavy.</li>
-        <li>Improved performance based on user feedback.</li>
-        <li>Enhanced UX aligned with client expectations.</li>
-      </ul>
-    </div>
 
-    <div class="project-card">
-      <h3>Associate Software Engineer</h3>
-      <p class="stack">Accenture | Aug 2021 – Aug 2023</p>
-      <ul>
-        <li>Built backend systems in Python with scalable architecture.</li>
-        <li>Created REST APIs for smooth front-backend data flow.</li>
-        <li>Collaborated on DB performance optimization.</li>
-      </ul>
-    </div>
+    <section id="experience">
+      <h2>💼 Experience</h2>
+      <div class="project-grid">
 
-  </div>
-</section>
+        <div class="project-card">
+          <h3>Custom Software Engineer Analyst</h3>
+          <p class="stack">Accenture India (Google Client) | Sep 2023 – Present</p>
+          <ul>
+            <li>Developed Android features using Java & Cavy.</li>
+            <li>Improved performance based on user feedback.</li>
+            <li>Enhanced UX aligned with client expectations.</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <h3>Associate Software Engineer</h3>
+          <p class="stack">Accenture | Aug 2021 – Aug 2023</p>
+          <ul>
+            <li>Built backend systems in Python with scalable architecture.</li>
+            <li>Created REST APIs for smooth front-backend data flow.</li>
+            <li>Collaborated on DB performance optimization.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
 
 
     <section id="projects">
@@ -106,159 +127,169 @@
     </section>
 
     <section id="personal-projects">
-  <h2>💡 Personal Projects</h2>
-  <div class="project-grid">
+      <h2>💡 Personal Projects</h2>
+      <div class="project-grid">
 
-    <div class="project-card">
-      <h3><a href="https://github.com/shankar-kritika/Backpackers">Backpackers</a></h3>
-      <p class="stack">PHP | MySQL | Bootstrap | HTML5</p>
-      <p>Web-based bus booking system with real-time schedule and fare retrieval.</p>
-    </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/shankar-kritika/Backpackers">Backpackers</a></h3>
+          <p class="stack">PHP | MySQL | Bootstrap | HTML5</p>
+          <p>Web-based bus booking system with real-time schedule and fare retrieval.</p>
+        </div>
 
-    <div class="project-card">
-      <h3><a href="https://github.com/shankar-kritika/Expense-Tracker">Expense Tracker</a></h3>
-      <p class="stack">React | JavaScript | Local Storage</p>
-      <p>Personal finance tracker with add/edit/delete features, React hooks, and persistence.</p>
-    </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/shankar-kritika/Expense-Tracker">Expense Tracker</a></h3>
+          <p class="stack">React | JavaScript | Local Storage</p>
+          <p>Personal finance tracker with add/edit/delete features, React hooks, and persistence.</p>
+        </div>
 
-    <div class="project-card">
-      <h3><a href="https://github.com/shankar-kritika/Image-generator">Image Generator</a></h3>
-      <p class="stack">HTML | CSS | JavaScript</p>
-      <p>Responsive app that generates and displays random images at intervals.</p>
-    </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/shankar-kritika/Image-generator">Image Generator</a></h3>
+          <p class="stack">HTML | CSS | JavaScript</p>
+          <p>Responsive app that generates and displays random images at intervals.</p>
+        </div>
 
-  </div>
-</section>
+      </div>
+    </section>
 
 
     <section id="skills">
       <h2>🧠 Skills</h2>
       <ul class="skills-list">
-  <li data-skill="75%">JavaScript</li>
-  <li data-skill="60%">Angular</li>
-  <li data-skill="70%">Java</li>
-  <li data-skill="30%">Python</li>
-  <li data-skill="20%">React</li>
-  <li data-skill="60%">MySQL</li>
-  <li data-skill="90%">HTML</li>
-  <li data-skill="90%">CSS</li>
-  <li data-skill="50%">C++</li>
-</ul>
+        <li data-skill="75%">JavaScript</li>
+        <li data-skill="60%">Angular</li>
+        <li data-skill="70%">Java</li>
+        <li data-skill="30%">Python</li>
+        <li data-skill="20%">React</li>
+        <li data-skill="60%">MySQL</li>
+        <li data-skill="90%">HTML</li>
+        <li data-skill="90%">CSS</li>
+        <li data-skill="50%">C++</li>
+      </ul>
 
 
     </section>
-    
-<section id="tools">
-  <h2>🧰 Developer Tools</h2>
-  <div class="tools-grid">
-  <div class="tool">Visual Studio Code</div>
-  <div class="tool">GitHub</div>
-  <div class="tool">Cider V</div>
-  <div class="tool">Cavy</div>
-</div>
 
-</section>
+    <section id="tools">
+      <h2>🧰 Developer Tools</h2>
+      <div class="tools-grid">
+        <div class="tool">Visual Studio Code</div>
+        <div class="tool">GitHub</div>
+        <div class="tool">Cider V</div>
+        <div class="tool">Cavy</div>
+      </div>
 
-<section id="education">
-  <h2>🎓 Education</h2>
-  <div class="project-grid">
+    </section>
 
-    <div class="project-card">
-      <h3><a href="https://www.cgc.ac.in/" target="_blank">Chandigarh Engineering College</a></h3>
-      <p class="stack">B.Tech. in Information Technology</p>
-      <ul>
-        <li>CGPA: 7.02 / 10</li>
-        <li>2017 – 2021</li>
-      </ul>
-    </div>
+    <section id="education">
+      <h2>🎓 Education</h2>
+      <div class="project-grid">
 
-    <div class="project-card">
-      <h3><a href="https://gmsss37d.edupage.org/" target="_blank">GMSSS 37-B Chandigarh</a></h3>
-      <p class="stack">12th – Non-Medical</p>
-      <ul>
-        <li>Percentage: 70%</li>
-        <li>2016 – 2017</li>
-      </ul>
-    </div>
+        <div class="project-card">
+          <h3><a href="https://www.cgc.ac.in/" target="_blank">Chandigarh Engineering College</a></h3>
+          <p class="stack">B.Tech. in Information Technology</p>
+          <ul>
+            <li>CGPA: 7.02 / 10</li>
+            <li>2017 – 2021</li>
+          </ul>
+        </div>
 
-    <div class="project-card">
-      <h3><a href="http://lawrencepublicschool.in/" target="_blank">Lawrance Public Sr. Sec. School</a></h3>
-      <p class="stack">10th</p>
-      <ul>
-        <li>CGPA: 8.2 / 10</li>
-        <li>2014 – 2015</li>
-      </ul>
-    </div>
+        <div class="project-card">
+          <h3><a href="https://gmsss37d.edupage.org/" target="_blank">GMSSS 37-B Chandigarh</a></h3>
+          <p class="stack">12th – Non-Medical</p>
+          <ul>
+            <li>Percentage: 70%</li>
+            <li>2016 – 2017</li>
+          </ul>
+        </div>
 
-  </div>
-</section>
+        <div class="project-card">
+          <h3><a href="http://lawrencepublicschool.in/" target="_blank">Lawrance Public Sr. Sec. School</a></h3>
+          <p class="stack">10th</p>
+          <ul>
+            <li>CGPA: 8.2 / 10</li>
+            <li>2014 – 2015</li>
+          </ul>
+        </div>
 
-
-<section id="certificates">
-  <h2>📜 Certificates</h2>
-  <div class="project-grid">
-
-    <div class="project-card">
-      <h3><a href="https://www.accenture.com/in-en">Accenture</a></h3>
-      <p class="stack">PINNACLE AWARD 2021</p>
-      <ul><li>Award of best Project</li></ul>
-    </div>
-    <div class="project-card">
-      <h3><a href="https://www.accenture.com/in-en">Accenture</a></h3>
-      <p class="stack">Recognization Award</p>
-      <ul><li>Award of best Team Member</li></ul>
-    </div>
-    <div class="project-card">
-      <h3><a href="https://www.coursera.org/account-profile">Coursera</a></h3>
-      <p class="stack">Java Programming</p>
-      <ul>
-        <li>Learned Java, OOPs, and core concepts.</li>
-        <li>2021</li>
-      </ul>
-    </div>
-
-    <div class="project-card">
-      <h3><a href="https://www.udemy.com/user/edit-profile/">Udemy</a></h3>
-      <p class="stack">Web Development Bootcamp</p>
-      <ul>
-        <li>Covered HTML, CSS, JS, and Git basics.</li>
-        <li>2020</li>
-      </ul>
-    </div>
-
-    <div class="project-card">
-      <h3><a href="https://www.sih.gov.in/sih2019">SIH 2019</a></h3>
-      <p class="stack">Volunteer</p>
-      <ul>
-        <li>Award of Exceptional Contribution</li>
-        <li>2019</li>
-      </ul>
-    </div>
-
-    <div class="project-card">
-      <h3><a href="https://www.acm.org/">ACM</a></h3>
-      <p>Member</p>
-      <ul>
-        <li>Certificate of Participation</li>
-        <li>2019</li>
-      </ul>
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
 
 
-    
+    <section id="certificates">
+      <h2>📜 Certificates</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3><a href="https://www.accenture.com/in-en">Accenture</a></h3>
+          <p class="stack">PINNACLE AWARD 2021</p>
+          <ul>
+            <li>Award of best Project</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://www.accenture.com/in-en">Accenture</a></h3>
+          <p class="stack">Recognization Award</p>
+          <ul>
+            <li>Award of best Team Member</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://www.coursera.org/account-profile">Coursera</a></h3>
+          <p class="stack">Java Programming</p>
+          <ul>
+            <li>Learned Java, OOPs, and core concepts.</li>
+            <li>2021</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <h3><a href="https://www.udemy.com/user/edit-profile/">Udemy</a></h3>
+          <p class="stack">Web Development Bootcamp</p>
+          <ul>
+            <li>Covered HTML, CSS, JS, and Git basics.</li>
+            <li>2020</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <h3><a href="https://www.sih.gov.in/sih2019">SIH 2019</a></h3>
+          <p class="stack">Volunteer</p>
+          <ul>
+            <li>Award of Exceptional Contribution</li>
+            <li>2019</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <h3><a href="https://www.acm.org/">ACM</a></h3>
+          <p>Member</p>
+          <ul>
+            <li>Certificate of Participation</li>
+            <li>2019</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
 
     <section id="contact">
-  <h2>📬 Contact</h2>
-  <div class="contact-line">
-    <span><strong>Email:</strong> <a href="mailto:krkritika24@gmail.com">krkritika24@gmail.com</a></span>
-    <span><strong>Phone:</strong> +91 7009601987</span>
-    <span><strong>Location:</strong> Mohali, Punjab</span>
-  </div>
-</section>
+      <h2>📬 Contact</h2>
+      <div class="contact-line">
+        <span><strong>Email:</strong> <a href="mailto:krkritika24@gmail.com">krkritika24@gmail.com</a></span>
+        <span><strong>Phone:</strong> +91 7009601987</span>
+        <span><strong>Location:</strong> Mohali, Punjab</span>
+      </div>
+    </section>
 
   </main>
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebarNav').classList.toggle('open');
+    }
+  </script>
 
 </body>
+
 </html>
